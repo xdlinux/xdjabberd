@@ -13,4 +13,16 @@
     - conference
     - file transfer tutoral
     - voice tutorial
+* add utf-8 head to solve wrong encode
+* add this project link in xdlinux's homepage
 * do advertising
+* client for xmpp (voice and video)
+  - client for android
+  - client for ios
+  - client for linux
+  - client for mac
+  - client for windows
+* QR code for easy install
+* QR code for easy sign up
+* QR code for easy add friend
+* QR code for easy add groups
