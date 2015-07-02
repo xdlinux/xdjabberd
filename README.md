@@ -26,3 +26,8 @@
 * QR code for easy sign up
 * QR code for easy add friend
 * QR code for easy add groups
+ 
+## Mechanism
+* If any user encounterd related problem, let him report/open an issue here, the xdjabberd repo.
+* Registration is only available in the school network.
+* login is available globally, no IP restrictions at this point.
