@@ -31,3 +31,9 @@
 * If any user encounterd related problem, let him report/open an issue here, the xdjabberd repo.
 * Registration is only available in the school network.
 * login is available globally, no IP restrictions at this point.
+
+## Policy
+* End users must not violate the law with our service.
+
+## Copyleft
+* Server: openfire (opensource) -> ejabberd (free software)
