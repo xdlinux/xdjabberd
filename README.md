@@ -2,6 +2,11 @@
 [XMPP/Jabber Service] xdjabberd
 
 ## TODO list
+* Add SIP protocol enhance voice quality
+  - reference [combining-sip-and-xmpp](http://www.onsip.com/about-voip/sip/combining-sip-and-xmpp)
+  - an online example [getonsip](https://www.getonsip.com/)
+  - an android client [CSipSimple](https://play.google.com/store/apps/details?id=com.csipsimple&hl=en) Package [On F-Droid](https://f-droid.org/repository/browse/?fdid=com.csipsimple)
+  - Another example [Ring](http://ring.cx/)
 * Audio call bitrate  
   current audiocall bitrate is toooooooo low!
 * Migrate from openfire to ejabberd
@@ -11,7 +16,7 @@
     - contactcs
     - groups
     - conference
-    - file transfer tutoral
+    - file transfer tutorial
     - voice tutorial
 * add utf-8 head to solve wrong encode
 * add this project link in xdlinux's homepage
