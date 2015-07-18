@@ -57,7 +57,8 @@
   - text [OK]
   - voice [OK] - bitrate low
   - files via 5222 [OK] - slow
-  - files via 7777 [OK] - very good
+  - files via 7777 [OK+ISSUE] - very good  
+    However fails when sending big file. (1.7+GB)  
  
 * Linux+Gajim - with - Android+Conversations
   - text [OK]
