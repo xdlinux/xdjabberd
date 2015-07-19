@@ -13,7 +13,7 @@
     Set up SIP, or try to look into XMPP voice bitrate.  
 
 * XMPP/Jabber and SIP Server
-  * Migrate from openfire to ejabberd
+  - NAPTR DNS record
 
 * Documentation
   * write doc/tutorial
@@ -50,8 +50,17 @@
   * QR code for easy add friend
   * QR code for easy add groups
 
+## [DONE] TODO
+
+  * Migrate from openfire to ejabberd [19 Jul 2015]
+
 ## Tests
-### Openfire Test Results (will be obsolete)
+### Ejabberd Test Results (Current)
+
+* Linux+Gajim - with - Linux+Gajim
+  - text [OK]
+
+### Openfire Test Results (obsolete)
 
 * Linux+Gajim - with - Linux+Gajim
   - text [OK]
@@ -66,17 +75,10 @@
   - images [OK]
   - audio clips [OK]
 
-### Ejabberd Test Results (Migrating)
-
-* Linux+Gajim - with - What
-
 ## Rules
 * If any user encounterd related problem, let him report/open an issue here, the xdjabberd repo.
 * Registration is only available in the school network.
 * xmpp client login is available globally, no IP restrictions at this point.
 
-## Policy
-* End users must not violate the law with our service.
-
 ## Copyleft
-* Server: openfire (opensource) -> ejabberd (free software)
+* Server: ejabberd (free software)
