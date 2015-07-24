@@ -1,8 +1,10 @@
 # xdjabberd
 [XMPP/Jabber Service] xdjabberd
 
+# 
+
 ## TODO list
-* Voice via SIP/XMPP
+* Voice via SIP
   * Add SIP protocol enhance voice quality
     - reference [combining-sip-and-xmpp](http://www.onsip.com/about-voip/sip/combining-sip-and-xmpp)
     - an online example [getonsip](https://www.getonsip.com/)
@@ -11,9 +13,8 @@
   * Audio call bitrate  
     current audiocall bitrate is toooooooo low!  
     Set up SIP, or try to look into XMPP voice bitrate.  
-
-* XMPP/Jabber and SIP Server
-  - NAPTR DNS record
+  * NAPTR DNS Record  
+    in order to setup SIP, we need NAPTR record but *pod doesn't support.  
 
 * Documentation
   * write doc/tutorial
@@ -59,21 +60,6 @@
 
 * Linux+Gajim - with - Linux+Gajim
   - text [OK]
-
-### Openfire Test Results (obsolete)
-
-* Linux+Gajim - with - Linux+Gajim
-  - text [OK]
-  - voice [OK] - bitrate low
-  - files via 5222 [OK] - slow
-  - files via 7777 [OK+ISSUE] - very good  
-    However fails when sending big file. (1.7+GB)  
- 
-* Linux+Gajim - with - Android+Conversations
-  - text [OK]
-  - voice [?]
-  - images [OK]
-  - audio clips [OK]
 
 ## Rules
 * If any user encounterd related problem, let him report/open an issue here, the xdjabberd repo.
